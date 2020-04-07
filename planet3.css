@@ -1,19 +1,18 @@
 div {
-       text-align: center;
-        font-size: 35px;
-        font-family: 'Orbitron', sans-serif, bold;
-        font-weight: 700;
+       text-align: left;
+        font-size: 30px;
+        font-family: 'Spartan', sans-serif;
+        font-weight: 400;
         font-style: normal;
         border: #252525 4px; 
       }
 
       body {
-  font-family: 'Orbitron', sans-serif, bold;
-  font-weight: 700;
+ font-family: 'Spartan', sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 35px;
   background-color: #252525;
- 
   box-shadow: 10px 10px 5px;
 
   }
@@ -29,15 +28,26 @@ div {
   background-color: #252525;
   color: red;
   text-shadow: 0 0 10px red;
-  font-size: 80px;
-  font-weight: 900;
+  font-size: 60px;
+  font-weight: 600;
 }
 .grid-item-7:hover{
     color: red;
   text-shadow: 0 0 25px red;
     transition: .5s;
   }
-
+.grid-item-8 {
+  background-color: #252525;
+  color: #c5df9b;
+  text-shadow: 0 0 10px #c5df9b;
+  font-size: 40px;
+  font-weight: 600;
+}
+.grid-item-8:hover{
+    color: #c5df9b;
+  text-shadow: 0 0 25px #c5df9b;
+    transition: .5s;
+  }
   .image1 {
     display: flex;
     justify-content: center;
@@ -77,8 +87,8 @@ a:hover {
   background-color: #252525;
   color: red;
   text-shadow: 0 0 10px red;
-  font-size: 50px;
-  font-weight: 900;
+  font-size: 40px;
+  font-weight: 600;
 }
 .grid-item-6:hover{
     color: red;
@@ -88,6 +98,7 @@ a:hover {
 
   .grid-item-2 {
     background-color: #252525;
+    text-shadow: 0 0 10px #cf2d27;
   }
   .grid-item-2:hover{
     background-color: #cf2d27;
@@ -96,6 +107,7 @@ a:hover {
 
   .grid-item-3 {
     background-color: #252525;
+    text-shadow: 0 0 10px #00a1e0;
   }     
   .grid-item-3:hover{
     background-color: #00a1e0;
@@ -104,6 +116,7 @@ a:hover {
 
   .grid-item-4 {
     background-color: #252525;
+    text-shadow: 0 0 10px #efd613;
   } 
 
    .grid-item-4:hover {
@@ -114,6 +127,7 @@ a:hover {
 
   .grid-item-5 {
     background-color: #252525;
+    text-shadow: 0 0 10px #d54498;
   }
    .grid-item-5:hover {
     background-color: #d54498;
