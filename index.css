@@ -49,33 +49,108 @@ div {
   text-shadow: 0 0 25px #cf2d27;
     transition: .5s;
   }
-
-  .image1 {
-    display: flex;
-    justify-content: center;
+.grid-item-1 {
+  justify-content: center;
     align-items: center;
-    overflow: hidden
+    overflow: hidden;
+    max-width: 100%;
+    height: 100%;
+    width: 100%
 }
   .image1 {
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: 100%;
+    height: 100%;
+    width: 100%
+}
+
+#button1og {
+  z-index: -1;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: auto;
+    width: auto\9;
+}
+
+#button2og {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
     max-width: 100%;
     height: auto;
     width: auto\9;
 }
 
-  .grid-item-1 {
+#button3og {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+#button4og {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+#button1 {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+
+}
+
+#button2 {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+#button3 {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+#button4 {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+  #grid-item-1 {
     background-color: #252525;
     grid-column-start: 1;
     grid-column-end: 5;
-  }
-  
-  img {
-    filter: blur(10px);
-  }
-  
-  img:hover {
-  filter: blur(0px);
-  transition: .5s;
-
   }
 
 a { color: white; }
@@ -85,7 +160,7 @@ a:hover {
   color: black;
   transition: .5s;
 }
-.grid-item-6 {
+/*.grid-item-6 {
 	background-color: #252525;
 	color: red;
 	text-shadow: 0 0 10px red;
