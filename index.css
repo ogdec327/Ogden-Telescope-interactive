@@ -31,13 +31,13 @@ div {
 
 #image1 {
   filter: brightness(80%);
-  filter: blur(5px);
+  filter: blur(50px);
   transition: 1s;
 }
 #image1:hover {
   filter: brightness(80%);
   filter: blur(0px);
-  transition: 1s;
+  transition: 2s;
 }
 
 #title {
