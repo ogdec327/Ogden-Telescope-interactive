@@ -1,0 +1,138 @@
+div {
+       text-align: left;
+        font-size: 30px;
+        font-family: 'Spartan', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        border: #252525 4px; 
+      }
+
+      body {
+ font-family: 'Spartan', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  background-color: #252525;
+  box-shadow: 10px 10px 5px;
+
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px 10px;
+    background-color: black;
+    border: solid black 5px;
+  }
+.grid-item-7 {
+  background-color: #252525;
+  color: red;
+  text-shadow: 0 0 10px red;
+  font-size: 60px;
+  font-weight: 600;
+}
+.grid-item-7:hover{
+    color: red;
+  text-shadow: 0 0 25px red;
+    transition: .5s;
+  }
+.grid-item-8 {
+  background-color: #252525;
+  color: #c5df9b;
+  text-shadow: 0 0 10px #c5df9b;
+  font-size: 40px;
+  font-weight: 600;
+}
+.grid-item-8:hover{
+    color: #c5df9b;
+  text-shadow: 0 0 25px #c5df9b;
+    transition: .5s;
+  }
+  .image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+  .image1 {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+  .grid-item-1 {
+    background-color: #252525;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  
+  img {
+    filter: blur(10px);
+  }
+  
+  img:hover {
+  filter: blur(0px);
+  transition: .5s;
+
+  }
+
+a { color: white; }
+
+
+a:hover {
+  color: black;
+  transition: .5s;
+}
+.grid-item-6 {
+  background-color: #252525;
+  color: red;
+  text-shadow: 0 0 10px red;
+  font-size: 40px;
+  font-weight: 600;
+}
+.grid-item-6:hover{
+    color: red;
+  text-shadow: 0 0 20px red;
+    transition: .5s;
+  }
+
+  .grid-item-2 {
+    background-color: #252525;
+    text-shadow: 0 0 10px #cf2d27;
+  }
+  .grid-item-2:hover{
+    background-color: #cf2d27;
+    transition: .5s;
+  }
+
+  .grid-item-3 {
+    background-color: #252525;
+    text-shadow: 0 0 10px #00a1e0;
+  }     
+  .grid-item-3:hover{
+    background-color: #00a1e0;
+    transition: .5s;
+  }
+
+  .grid-item-4 {
+    background-color: #252525;
+    text-shadow: 0 0 10px #efd613;
+  } 
+
+   .grid-item-4:hover {
+    background-color: #efd613;
+
+    transition: .5s;
+  }
+
+  .grid-item-5 {
+    background-color: #252525;
+    text-shadow: 0 0 10px #d54498;
+  }
+   .grid-item-5:hover {
+    background-color: #d54498;
+    transition: .5s;
+  }
+
+
+}

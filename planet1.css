@@ -9,11 +9,12 @@ div {
       }
 
       body {
- font-family: 'Spartan', sans-serif;
+  font-family: 'Spartan', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 35px;
   background-color: #252525;
+ 
   box-shadow: 10px 10px 5px;
 
   }
@@ -30,27 +31,27 @@ div {
 }
 
 #title {
-  background-color: #252525;
-  color: red;
-  text-shadow: 0 0 10px red;
-  font-size: 60px;
-  font-weight: 600;
+	background-color: #252525;
+	color: red;
+	text-shadow: 0 0 10px red;
+	font-size: 60px;
+	font-weight: 600;
 }
 #title:hover{
     color: red;
-  text-shadow: 0 0 25px red;
+	text-shadow: 0 0 25px red;
     transition: .5s;
   }
 #planet1 {
   background-color: #252525;
-  color: #c5df9b;
-  text-shadow: 0 0 10px #c5df9b;
+  color: #cf2d27;
+  text-shadow: 0 0 10px #cf2d27;
   font-size: 40px;
   font-weight: 600;
 }
 #planet1:hover{
-    color: #c5df9b;
-  text-shadow: 0 0 25px #c5df9b;
+    color: #cf2d27;
+  text-shadow: 0 0 25px #cf2d27;
     transition: .5s;
   }
 
@@ -77,10 +78,11 @@ div {
 } 
 
 .svg_item1:hover {
-  fill: #cf2d27;
+  fill: #00a1e0;
   transition: 1s;
-   filter: drop-shadow(10px 10px 60px #cf2d27);
+   filter: drop-shadow(10px 10px 60px #00a1e0);
 } 
+
 #svg_item2 {
   position: absolute;
   scale: 115px;
@@ -94,9 +96,9 @@ div {
 } 
 
 #svg_item2:hover {
-  fill: #00a1e0;
+  fill: #c5df9b;
   transition: 1s;
-    filter: drop-shadow(10px 10px 60px #00a1e0);
+    filter: drop-shadow(10px 10px 60px #c5df9b);
 } 
 
 #svg_item3 {
@@ -144,15 +146,15 @@ div {
   transform: rotate(-137deg);
   width: 160px;
   height: 150px;
-  fill: #c5df9b;
+  fill: #cf2d27;
   cursor: pointer;
-  filter: drop-shadow(0 10px 25px #c5df9b);
+  filter: drop-shadow(0 10px 25px #cf2d27);
 } 
 
 #svg_item5:hover {
   fill: red;
   transition: 1s;
   filter: drop-shadow(10px 10px 60px red);
-} 
+}
 
 }

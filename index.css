@@ -1,10 +1,11 @@
 div {
-       text-align: left;
-        font-size: 30px;
+       text-align: center;
+        font-size: 50px;
         font-family: 'Spartan', sans-serif;
         font-weight: 400;
         font-style: normal;
-        border: #252525 4px; 
+        border: #002157 4px; 
+        cursor: cell;
       }
 
       body {
@@ -12,207 +13,71 @@ div {
   font-weight: 400;
   font-style: normal;
   font-size: 35px;
-  background-color: #252525;
- 
-  box-shadow: 10px 10px 5px;
+  background-color: #002157;
+  box-shadow: 10px 20px 5px;
 
   }
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 10px 10px;
-    background-color: black;
-    border: solid black 5px;
-  }
-.grid-item-7 {
-	background-color: #252525;
-	color: red;
-	text-shadow: 0 0 10px red;
-	font-size: 60px;
-	font-weight: 600;
+.wrapper {
+  display: block;
+  width: 100vw;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-.grid-item-7:hover{
-    color: red;
-	text-shadow: 0 0 25px red;
-    transition: .5s;
-  }
-.grid-item-8 {
-  background-color: #252525;
-  color: #cf2d27;
-  text-shadow: 0 0 10px #cf2d27;
-  font-size: 40px;
+
+.center {
+  position: relative;
+}
+
+#image1 {
+  filter: brightness(80%);
+  filter: blur(5px);
+  transition: 1s;
+}
+#image1:hover {
+  filter: brightness(80%);
+  filter: blur(0px);
+  transition: 1s;
+}
+
+#title {
+  background-color: #002157;
+  color: red;
+  text-shadow: 0 0 20px red;
+  font-size: 60px;
   font-weight: 600;
 }
-.grid-item-8:hover{
-    color: #cf2d27;
-  text-shadow: 0 0 25px #cf2d27;
-    transition: .5s;
-  }
-.grid-item-1 {
-  justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    max-width: 100%;
-    height: 100%;
-    width: 100%
-}
-  .image1 {
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    max-width: 100%;
-    height: 100%;
-    width: 100%
-}
-
-#button1og {
-  z-index: -1;
-   display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    height: auto;
-    width: auto\9;
-}
-
-#button2og {
-   display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
-}
-
-#button3og {
-   display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
-}
-
-#button4og {
-   display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
-}
-
-#button1 {
-   display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
-
-}
-
-#button2 {
-   display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
-}
-
-#button3 {
-   display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
-}
-
-#button4 {
-   display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
-}
-
-  #grid-item-1 {
-    background-color: #252525;
-    grid-column-start: 1;
-    grid-column-end: 5;
-  }
-
-a { color: white; }
-
-
-a:hover {
-  color: black;
-  transition: .5s;
-}
-/*.grid-item-6 {
-	background-color: #252525;
-	color: red;
-	text-shadow: 0 0 10px red;
-	font-size: 40px;
-	font-weight: 600;
-}
-.grid-item-6:hover{
+#title:hover{
     color: red;
-	text-shadow: 0 0 20px red;
+  text-shadow: 0 0 35px red;
     transition: .5s;
   }
-
-  .grid-item-2 {
-    background-color: #252525;
-    text-shadow: 0 0 10px #00a1e0;
-  }
-  .grid-item-2:hover{
-    background-color: #00a1e0;
-    transition: .5s;
-  }
-
-  .grid-item-3 {
-    background-color: #252525;
-    text-shadow: 0 0 10px #c5df9b;
-  }     
-  .grid-item-3:hover{
-    background-color: #c5df9b;
-    transition: .5s;
-  }
-
-  .grid-item-4 {
-    background-color: #252525;
-    text-shadow: 0 0 10px #efd613;
-  } 
-
-   .grid-item-4:hover {
-    background-color: #efd613;
-    transition: .5s;
-  }
-
-  .grid-item-5 {
-    background-color: #252525;
-    text-shadow: 0 0 10px #d54498;
-  }
-   .grid-item-5:hover {
-    background-color: #d54498;
-    transition: .5s;
-  }
-
-
+.glow {
+  font-size: 80px;
+  color: pink;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 
+.glow:hover {
+  color: red;
+  transition: 1s;
+  filter: blur(0px);
+}
 
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red;
+  }
+  
+  to {
+    text-shadow: 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red, 0 0 80px red;
+  }
+}
 
       

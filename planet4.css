@@ -5,6 +5,7 @@ div {
         font-weight: 400;
         font-style: normal;
         border: #252525 4px; 
+        cursor: cell;
       }
 
       body {
@@ -17,123 +18,144 @@ div {
 
   }
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 10px 10px;
-    background-color: black;
-    border: solid black 5px;
-  }
-.grid-item-7 {
- background-color: #252525;
+.wrapper {
+  display: block;
+  width: 100vw;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.center {
+  position: relative;
+}
+
+#title {
+  background-color: #252525;
   color: red;
   text-shadow: 0 0 10px red;
   font-size: 60px;
   font-weight: 600;
 }
-.grid-item-7:hover{
+#title:hover{
     color: red;
   text-shadow: 0 0 25px red;
     transition: .5s;
   }
-  .grid-item-8 {
+#planet1 {
   background-color: #252525;
   color: #efd613;
   text-shadow: 0 0 10px #efd613;
   font-size: 40px;
   font-weight: 600;
 }
-.grid-item-8:hover{
+#planet1:hover{
     color: #efd613;
   text-shadow: 0 0 25px #efd613;
     transition: .5s;
   }
 
-  .image1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-}
-  .image1 {
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
+  #image1 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1224px;
+    z-index: 0;
 }
 
-  .grid-item-1 {
-    background-color: #252525;
-    grid-column-start: 1;
-    grid-column-end: 5;
-  }
+  #image1:hover {
+}
+
+.svg_item1 {
+  position: absolute;
+  scale: 115px;
+  top: 70px;
+  left: 315px;
+  width: 160px;
+  fill: #343534;
+  cursor: pointer;
+  filter: drop-shadow(0 0 30px #333);
+} 
+
+.svg_item1:hover {
+  fill: #cf2d27;
+  transition: 1s;
+   filter: drop-shadow(10px 10px 60px #cf2d27);
+} 
+#svg_item2 {
+  position: absolute;
+  scale: 115px;
+  top: 80px;
+  left: 804px;
+  transform: rotate(90deg);
+  width: 160px;
+  fill: #343534;
+  cursor: pointer;
+  filter: drop-shadow(0 0 30px #333);
+} 
+
+#svg_item2:hover {
+  fill: #00a1e0;
+  transition: 1s;
+    filter: drop-shadow(10px 10px 60px #00a1e0);
+} 
+
+#svg_item3 {
+  position: absolute;
+  scale: 115px;
+  top: 570px;
+  left: 318px;
+  transform: rotate(-90deg);
+  width: 160px;
+  fill: #343534;
+  cursor: pointer;
+  filter: drop-shadow(0 10px 30px #333);
+} 
+
+#svg_item3:hover {
+  fill: #c5df9b;
+  transition: 1s;
+  filter: drop-shadow(10px 10px 60px #c5df9b);
+} 
+
+#svg_item4 {
+  position: absolute;
+  scale: 115px;
+  top: 570px;
+  left: 796px;
+  transform: rotate(-180deg);
+  width: 160px;
+  height: 150px;
+  fill: #343534;
+  cursor: pointer;
+  filter: drop-shadow(0 10px 30px #333);
+} 
+
+#svg_item4:hover {
+  fill: #d54498;
+  transition: 1s;
+  filter: drop-shadow(10px 10px 60px #d54498);
+} 
+
+#svg_item5 {
+  position: absolute;
+  scale: 115px;
+  top: 670px;
+  left: 560px;
+  transform: rotate(-137deg);
+  width: 160px;
+  height: 150px;
+  fill: #efd613;
+  cursor: pointer;
+  filter: drop-shadow(0 10px 25px #efd613);
+} 
+
+#svg_item5:hover {
+  fill: red;
+  transition: 1s;
+  filter: drop-shadow(10px 10px 60px red);
+} 
+
+
+}
+
   
-  img {
-    filter: blur(10px);
-  }
-  
-  img:hover {
-  filter: blur(0px);
-  transition: .5s;
-
-  }
-
-a { color: white; }
-
-
-a:hover {
-  color: black;
-  transition: .5s;
-}
-.grid-item-6 {
-  background-color: #252525;
-  color: red;
-  text-shadow: 0 0 10px red;
-  font-size: 40px;
-  font-weight: 600;
-}
-.grid-item-6:hover{
-    color: red;
-  text-shadow: 0 0 20px red;
-    transition: .5s;
-  }
-
-  .grid-item-2 {
-    background-color: #252525;
-    text-shadow: 0 0 10px #cf2d27;
-  }
-  .grid-item-2:hover{
-    background-color: #cf2d27;
-    transition: .5s;
-  }
-
-  .grid-item-3 {
-    background-color: #252525;
-    text-shadow: 0 0 10px #00a1e0;
-  }     
-  .grid-item-3:hover{
-    background-color: #00a1e0;
-    transition: .5s;
-  }
-
-  .grid-item-4 {
-    background-color: #252525;
-    text-shadow: 0 0 10px #c5df9b;
-  } 
-
-   .grid-item-4:hover {
-    background-color: #c5df9b;
-
-    transition: .5s;
-  }
-
-  .grid-item-5 {
-    background-color: #252525;
-    text-shadow: 0 0 10px #d54498;
-  }
-   .grid-item-5:hover {
-    background-color: #d54498;
-    transition: .5s;
-  }
-
-
-}
